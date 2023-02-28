@@ -1,0 +1,137 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    padding: 5% 10% 0 10%;
+    background-color: #EAEAEA;
+}
+
+.contenedorPrincipal{
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 5%;
+}
+
+.presentacion{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.presentacion :nth-child(2){
+    margin-right: 10%;
+}
+
+.presentacion :nth-child(2) p{
+    font-style: italic;
+}
+
+.foto{
+    border: 3px solid #FF7373;
+    border-radius: 50%;
+    padding: 4px;
+    width: 200px;
+}
+
+.menu{
+    margin-top: 3%;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.titulo{
+    padding-bottom: 1%;
+    margin-bottom: 0;
+    border-bottom: 2px solid #FFB4B4;
+    font-size: 36px;
+}
+
+.nombre{
+    color: #FF7373;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subtitulo{
+    margin-top: 3px;
+    color: #818181;
+    opacity: 0.6;
+}
+
+.tarjeta{
+    border: 2px solid #6C9A9A;
+    border-radius: 15px;
+    padding: 1%;
+    display: none;
+}
+
+.tarjeta ul{
+    list-style: none;
+    padding-right: 2rem;
+    margin-bottom: 0;
+}
+
+.tarjeta li{
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+.tarjeta .fa-linkedin{
+    font-size: larger;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 2px solid #8DB1B1;
+    background-color: #AEC7C7;
+    padding-top: 1%;
+    margin-top: 1%;
+}
+
+.redesFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    list-style: none;
+    width: 100%;
+}
+
+.redesFooter i{
+    font-size: 40px;
+}
+
+.dato{
+    font-weight: 600;
+}
+
+footer a:link, footer a:visited
+{
+    color: #000000;
+}
+
+footer a:hover{
+    color: white;
+}
+
+footer a:active{
+    color: blue;
+}
